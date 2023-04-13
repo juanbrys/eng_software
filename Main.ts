@@ -53,7 +53,7 @@ while (opt != 9 || empresa.falido() == true) {
       break;
 
     case 6: // abastecer estoque
-      const qtd = +teclado("Quantos produtos você quer comprar?(valor: 2,00) ");
+      const qtd = +teclado("Quantos produtos você quer ?(valor: 2,00) ");
       empresa.abastecer(qtd);
       break;
 
